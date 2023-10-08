@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 175px auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  background-color: #800000;
+  padding: 10px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+label {
+  width: 200px;
+}
+
+input {
+  text-align: center;
+  width: 50%
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  background-color: #800000;
+  border: none;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+#result {
+  margin-top: 20px;
+}
+
+body {
+  background-image: url("https://r4.wallpaperflare.com/wallpaper/244/988/906/kamen-rider-zero-one-kamen-rider-zero-one-ark-one-kamen-rider-ark-one-hd-wallpaper-af5135ef87f1df360e7688091f0c6606.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    max-width: 100%;
+  }
+}
